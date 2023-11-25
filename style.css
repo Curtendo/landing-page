@@ -7,8 +7,8 @@ body {
 }
 
 body > * {
-    padding-left: 13em;
-    padding-right: 13em;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .header, .footer {
@@ -42,7 +42,6 @@ a {
     display: flex;
     gap: 26px;
     font-size: 18px;
-    
 }
 
 .right-links a {
@@ -70,6 +69,7 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 5px;
 }
 
 .hero-second-text {
@@ -112,12 +112,15 @@ p {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
 }
 
 .card-container {
     display: flex;
     gap: 52px;
     margin-top: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -125,6 +128,7 @@ p {
     font-weight: 300;
     color: #1F2937;
     text-align: center;
+    width: 210px;
 }
 
 .card img {
